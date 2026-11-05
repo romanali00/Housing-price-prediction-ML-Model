@@ -2,7 +2,7 @@
 End-to-end House Price Prediction app deployed with Streamlit, using Ridge Regression, Feature Scaling, and dynamic EDA visualizer tools.
 # 🏠 House Price Prediction Dashboard
 
-An interactive Machine Learning web application built using **Streamlit**, **Scikit-Learn**, and **Pandas** to predict house market prices based on user input parameters and visualize housing dataset insights.
+Interactive Streamlit ML app predicting house prices using Linear Regression, Ridge/RidgeCV, and Lasso/LassoCV with dynamic EDA visualizations.
 
 ---
 
@@ -34,3 +34,17 @@ An interactive Machine Learning web application built using **Streamlit**, **Sci
 ├── data.csv                   # Cleaned Housing Dataset
 ├── README.md                  # Project Documentation
 └── requirements.txt           # Project Dependencies
+
+⚙️ How to Run Locally
+
+pip install -r requirements.txt
+streamlit run app.py
+
+📊 Model Information
+Algorithm: Ridge Regression
+
+## 📊 Machine Learning Algorithms Evaluated
+
+- **Linear Regression**: Baseline regression analysis.
+- **Ridge & RidgeCV**: Regularized linear regression (L2) with automatic alpha tuning via Cross-Validation (Final Model selected).
+- **Lasso & LassoCV**: Feature selection and regularized regression (L1) using Cross-Validation.
